@@ -21,6 +21,11 @@ func someMethod() {
         log.Fatal(err)
     }
 
+    response, err := validator.ValidateToken("aToken")
+    if err != nil {
+        log.Fatal(err)
+    }
 
+    log.Println(response.Success)
 }
 ```
