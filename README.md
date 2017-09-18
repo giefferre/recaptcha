@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/giefferre/recaptcha/tree/master.svg?style=svg)](https://circleci.com/gh/giefferre/recaptcha/tree/master)
+
 # recaptcha
 
 Provides a tool for reCAPTCHA tokens validation.
